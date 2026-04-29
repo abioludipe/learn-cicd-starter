@@ -46,7 +46,7 @@ jobs:
 
       - name: run migrations
         run: |
-           chmod +x scripts/migratup.sh
+           chmod +x scripts/migrateup.sh
            ./scripts/migrateup.sh
 
       - name: deploy
